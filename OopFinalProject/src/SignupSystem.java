@@ -18,7 +18,7 @@ public class SignupSystem extends JFrame {
         setLayout(null);
         
 
-        ImageIcon logoIcon = new ImageIcon("/Users/phatcharaporn.t/Desktop/Project/logo.png"); // Replace with the path to your logo image
+        ImageIcon logoIcon = new ImageIcon("/Users/phatcharaporn.t/Documents/GitHub/OOP-project/logo.png"); // Replace with the path to your logo image
         Image img = logoIcon.getImage(); // ดึง Image ออกมาจาก ImageIcon
         Image resizedImg = img.getScaledInstance(50, 50, Image.SCALE_SMOOTH); // ปรับขนาดตามที่ต้องการ (กว้าง 50 สูง 50)
         ImageIcon resizedIcon = new ImageIcon(resizedImg); // แปลงกลับเป็น ImageIcon

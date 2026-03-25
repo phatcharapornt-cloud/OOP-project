@@ -5,7 +5,7 @@ import java.util.List;
 public class UserDataCSV {
 	
 	//file Userdata.csv ถูกเก็บไว้ในตัวแปร USER_FILE โดยเป็นตัวแปรประเภท String
-    private static final String USER_FILE = "/Users/phatcharaporn.t/Desktop/savedataproject/Userdata.csv";
+    private static final String USER_FILE = "/Users/phatcharaporn.t/Documents/GitHub/OOP-project/Userdata.csv";
 
     
     public static void saveUser(String name, String surname, String id, String birthDate, String bloodGroup, String address) {

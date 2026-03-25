@@ -27,7 +27,7 @@ public class LoginSystem extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(null);
         
-        ImageIcon logoIcon = new ImageIcon("/Users/phatcharaporn.t/Desktop/Project/logo.png"); // เป็นการimport fileรูปภาพเข้ามาเพื่อเก็บไว้ในตัวแปรlogoIcon
+        ImageIcon logoIcon = new ImageIcon("/Users/phatcharaporn.t/Documents/GitHub/OOP-project/logo.png"); // เป็นการimport fileรูปภาพเข้ามาเพื่อเก็บไว้ในตัวแปรlogoIcon
         Image img = logoIcon.getImage(); // ดึง Image ออกมาจาก ImageIcon
         Image resizedImg = img.getScaledInstance(125, 125, Image.SCALE_SMOOTH); // ปรับขนาดตามที่ต้องการ (กว้าง 125 สูง 125)
         ImageIcon resizedIcon = new ImageIcon(resizedImg); // แปลงกลับเป็น ImageIcon
